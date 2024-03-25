@@ -1,0 +1,31 @@
+TITLE-ABS-KEY (("NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR")  AND (soil or peat or plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae or manure or compost or biosolids or "organic waste")) 6906
+
+
+TITLE-ABS-KEY (("NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae or manure or compost or biosolids or "organic waste")) 6614
+
+
+TITLE-ABS-KEY(("NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae or manure or compost or biosolids or "organic waste") AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre"))1633
+
+## scopus2
+TITLE-ABS-KEY (("NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae or manure or compost or biosolids or "organic waste") AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre" or "Van Soest method") AND ( "acid unhydrolyzable residues" or "Acid-unhydrolyzable residue" OR "acid insoluble residues" OR "lignin" OR "cellulose" OR "hemicellulose" )) 308
+
+# WOS1
+
+ALL = (("NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae or manure or compost or biosolids or "organic waste") AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre")) 350
+# WOS2
+ALL = (("13 C Nuclear magnetic resonance" or "NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae) AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" or "wet chemical methods" or "wet chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre" or "Van Soest method") AND ( "acid unhydrolyzable residues" or "Acid-unhydrolyzable residue" OR "acid insoluble residues" OR "lignin" OR "cellulose" OR "hemicellulose" ))
+
+
+
+
+
+Final Strings
+
+ALL = (("13 C Nuclear magnetic resonance" or "NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae) AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" or "wet chemical methods" or "wet-chemical analysis" or "wet chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre" or "neutral detergent fibre" or "acid detergent fibre" or "Van Soest method" or "CuO") AND ( "acid unhydrolyzable residues" or "Acid-unhydrolyzable residue" OR "acid insoluble residues" OR "lignin" OR "cellulose" OR "hemicellulose" or "holocellulose"))
+
+
+## scopus2
+TITLE-ABS-KEY (("13 C Nuclear magnetic resonance" or "NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND ( plant OR wood or "woody debris" or root OR leaf OR leaves OR stem OR litter OR lichen OR moss OR legume or "crop residues" or residues or straw OR grass OR needle OR fungi OR bacteria or algae) AND ("decomposition" or "litter decomposition" or quality or "Litter quality" or "Litter chemistry" or "wet chemical methods" or "wet-chemical analysis" or "wet chemistry" OR "chemical analysis" OR "proximate analysis" OR "fiber analysis" or "Detergent fibre" or "neutral detergent fibre" or "acid detergent fibre" or "Van Soest method" or "CuO") AND ( "acid unhydrolyzable residues" or "Acid-unhydrolyzable residue" OR "acid insoluble residues" OR "lignin" OR "cellulose" OR "hemicellulose" or "holocellulose")) 324
+
+
+ALL = (("13 C Nuclear magnetic resonance" or "NMR 13C" OR "13C NMR spectroscopy" OR "Solid-state C CPMAS NMR" OR "CPMAS NMR" OR "Solid-state 13C CPMAS NMR" or "C solid-state NMR" or "13C NMR")  AND (necromass) AND ( "acid unhydrolyzable residues" or "Acid-unhydrolyzable residue" OR "acid insoluble residues" OR melanin))
