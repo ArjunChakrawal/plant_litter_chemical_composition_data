@@ -65,14 +65,8 @@ def efficiency(gamma):
 efficiency(4)
 # %% plantC_geolocations
 plt.close('all')
-rawdata = pd.read_excel('../collated data/NMR_MMM.xlsx')
+plant_data = pd.read_excel('../collated data/NMR_MMM.xlsx')
 corrdata = pd.read_excel('../collated data/corrdata.xlsx')
-
-# Filter 'rawdata' based on the condition 'source' is equal to "plantC"
-terr_data = rawdata.loc[rawdata['system'] == 'terrestrial', :]
-plant_data = terr_data.loc[terr_data['source'] == 'plantC', :]
-plant_data = plant_data[~plant_data['Csource'].isin(["PA", "biochar"])]
-plant_data = plant_data.reset_index(drop=True)
 
 # %% Figue S1
 # Filter non-NaN values for 'Latitude' and 'Longitude' columns in 'srcdata'

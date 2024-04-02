@@ -20,7 +20,7 @@ close all;clc
 
 fname= "..\collated data\NMR_data.xlsx";
 
-rawdata=readtable(fname,Sheet="all_data");
+rawdata=readtable(fname);
 sz= size(rawdata);
 rawdata.carbohydrate_MMM=rawdata.carbohydrate;
 rawdata.protein_MMM=rawdata.protein;

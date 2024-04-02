@@ -115,6 +115,9 @@ figure;
 boxplot([cordata.r2, cordata.rmse], 'Labels', {'r2', 'rmse'});
 title("molecular mixing model performance")
 
+vars={'labile','AS','AIS', ...
+    'Carbohydrates', 'Proteins','Lignins', 'Lipids', 'Carbonyls'};
+
 [fig, ~,~]=paired_correlation(cordata,vars,vars, 0.05,'', ...
     20,'MarkerFaceColor',[255, 145, 0]/255,'MarkerFaceAlpha',0.1, ...
     'MarkerEdgeColor','k','MarkerEdgeAlpha',0.1);
