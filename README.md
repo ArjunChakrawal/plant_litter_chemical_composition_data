@@ -1,6 +1,6 @@
 # plant_litter_chemical_composition_data
 
-This repository contains the data and scripts used in the publication "Comparing plant litter molecular diversity assessed using proximate and 13C NMR" by  Chakrawal et al., 2024.
+This repository contains the data and scripts used in the publication "Comparing plant litter molecular diversity assessed using proximate and 13C NMR" by  Chakrawal et al. 2024.
 
 In our study, we assessed the efficacy of conventional proximate analysis methods in characterizing litter quality compared to molecular-scale characterization utilizing 13C NMR spectroscopy data.
 
