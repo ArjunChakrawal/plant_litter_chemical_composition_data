@@ -116,7 +116,7 @@ PA_plant.Carbonyls=PA_plant.carbonyl_MMM.*PA_plant.C_conc.*0.001./gCNMR(5); % g/
 S= sum(PA_plant{:, {'Carbohydrates', 'Proteins','Lignins', 'Lipids', 'Carbonyls'}},2);
 S= sum(PA_plant{:, {'carbohydrate_MMM', 'protein_MMM','lignin_MMM', 'lipid_MMM', 'carbonyl_MMM'}},2);
 
-col2={'ID', 'doi','Title','Study','Latitude','Longitude','Csource','litter_info',...
+col2={'ID','Latitude','Longitude','Csource','Study','litter_info',...
     'timeDay','C_conc','C_N','Extract1_NPE', 'Extract2_WSE','Extract3_ACID','Extract4_AUR',...
     'labile','AS', 'AIS','AALKYL0_45Ppm','BMETHOX45_60Ppm','CO_ALKYL60_95Ppm','DDI_O_ALK95_110ppm',...
     'EAROM110_145Ppm','FPHEN145_165Ppm','GCARBOX165_210Ppm','Carbohydrates', 'Proteins',...
@@ -134,7 +134,7 @@ cordata.ID = (1:sz(1))';
 study  = unique(cordata.Study);
 delete("../collated data/corrdata.xlsx");
 writetable(cordata,'../collated data/corrdata.xlsx');
-study = unique(cordata.Study);
+
 %%
 
 
@@ -149,7 +149,7 @@ vars={'labile','AS','AIS', ...
     20,'MarkerFaceColor',[255, 145, 0]/255,'MarkerFaceAlpha',0.1, ...
     'MarkerEdgeColor','k','MarkerEdgeAlpha',0.1);
 fig.Position = [200 60  888   794];
-exportgraphics(fig,'../results/FigureA1.png',Resolution=300)
+exportgraphics(fig,'../results/FigureS2.png',Resolution=300)
 
 
 x_vars =  vars(1:3);
@@ -167,5 +167,5 @@ end
 xlabel(t,'Fractions of extractives from proximate analysis (g/g litter)')
 ylabel(t,'Fractions of organic compounds estimated from NMR (g/g litter)')
 
-exportgraphics(fig,'../results/Figure3.png',Resolution=300)
+exportgraphics(fig,'../results/Figure2.png',Resolution=300)
 

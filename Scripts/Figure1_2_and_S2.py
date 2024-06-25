@@ -13,6 +13,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
+
 # %%
 dfGH2O = -237.2  # kJ/mol
 dfGO2aq = 16.5  # kJ/mol
@@ -67,14 +68,13 @@ efficiency(4)
 plt.close('all')
 plant_data = pd.read_excel('../collated data/NMR_MMM.xlsx')
 corrdata = pd.read_excel('../collated data/corrdata.xlsx')
+len(plant_data['Study'].unique())
+len(corrdata['Study'].unique())
 
 # %% Figue S1
 # Filter non-NaN values for 'Latitude' and 'Longitude' columns in 'srcdata'
-lat = plant_data.loc[~np.isnan(plant_data['Latitude']), 'Latitude']
-long = plant_data.loc[~np.isnan(plant_data['Longitude']), 'Longitude']
-# If you want the unique values of 'Latitude' and 'Longitude':
-unique_latitudes = lat.unique()
-unique_longitudes = long.unique()
+lat = corrdata.loc[~np.isnan(corrdata['Latitude']), 'Latitude']
+long = corrdata.loc[~np.isnan(corrdata['Longitude']), 'Longitude']
 
 loc = pd.DataFrame({'Latitude': lat, 'Longitude': long})
 fig = px.scatter_geo(loc, lat='Latitude', lon='Longitude', color_discrete_sequence=['red'])
@@ -83,7 +83,7 @@ fig.update_layout(title_text='Your Title', margin=dict(l=0, r=0, b=0, t=0))
 fig.write_html('first_figure.html', auto_open=True)
 fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
 export_params = dict(format='png', width=1200, height=800, scale=3)
-fig.write_image("../results/plantC_geolocations.png", **export_params)
+# fig.write_image("../results/plantC_geolocations.svg", **export_params)
 
 
 # %%
@@ -140,7 +140,8 @@ ax2.set_ylabel('PA fractions (g/g litter)')
 ax2.get_legend().set_frame_on(False)
 plt.tight_layout()
 plt.show()
-plt.savefig("../results/Figure1.png", dpi=300)
+plt.savefig("../results/Figure2.png", dpi=300)
+plt.savefig("../results/Figure2.svg", dpi=300)
 
 #%% Figure S3
 gamma = 4-corrdata['Cox']
@@ -187,4 +188,5 @@ for i, count in enumerate(hue_counts):
 
 plt.show()
 plt.tight_layout()
-plt.savefig("../results/FigureS3.png", dpi=300)
+plt.savefig("../results/FigureA2.png", dpi=300)
+plt.savefig("../results/FigureA2.svg", dpi=300)
